@@ -1,0 +1,25 @@
+/* include("connection.php");
+        $sql = "SELECT * from transactions";
+		$result = $conn->query($sql);
+		if ($result->num_rows > 0) {
+			// output data of each row
+			$arr = array();
+			$i = 0;
+			while ($data = mysqli_fetch_assoc($result)) {
+				while (list ($key, $value) = each($data))
+					$arr[$i][$key] = $value;
+				$i ++;
+			}
+		}
+		
+		 for($i=0;$i<count($arr);$i++)
+		 {
+			 $worksheet->write(0, 0,  "transaction_no");
+			 $worksheet->write(0, 1,  "voucher_no");
+			 $worksheet->write(0, 2,  "head_id");
+			 $worksheet->write(0, 3,  "debit");
+			 $worksheet->write(0, 4,  "credit");
+			 
+		}	 
+			 
+			 */
